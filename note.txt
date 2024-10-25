@@ -1,0 +1,24 @@
+[productId]: it's a dynamic route contains a params props ( /product/20 )
+
+------------------------------------------------------------------------------------
+
+--docs
+----[...slug]  // that's mean any url contain 'docs/anything' he show one page that's call catch all segments
+
+------------------------------------------------------------------------------------
+
+--app
+----auth
+------register
+------login
+
+url: localhost:3000/auth/register
+
+so to hide auth from url we rename the directory like that 
+
+--app
+----(auth)
+
+------------------------------------------------------------------------------------
+
+
